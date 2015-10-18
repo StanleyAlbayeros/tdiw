@@ -1,0 +1,346 @@
+/* base styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url("../images/body-bgg.jpg") no-repeat fixed center top #FFFFFF;
+    color: #7F7F7F;
+    background-size: 100%;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    line-height: 17px;
+}
+img {
+    border: 0 none;
+}
+.container {
+    margin:30px auto 0;
+    position:relative;
+    text-align:left;
+    width:1000px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* header */
+header {
+    background: solid #e0e0e0 repeat scroll left top #fff;
+    border-bottom:2px solid #e0e0e0;
+    position: relative;
+    z-index: 100;
+}
+.top_head {
+    overflow: hidden;
+    position: relative;
+}
+.logo {
+    float: left;
+    padding: 37px 0 0 39px;
+}
+
+/* caja de busqueda */
+#search {
+    float: right;
+    margin: 21px 41px 0 0;
+    text-align: right;
+}
+#search form {
+    float:right;
+}
+#search form input[type="search"] {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 2px solid #D0D0D0;
+    float: left;
+    font-family: Helvetica,sans-serif;
+    height: 29px;
+    padding: 5px;
+    width: 129px;
+}
+#search form input[type="submit"] {
+    background-color: #FFFFFF;
+    border: 2px solid #D0D0D0;
+    border-left-width:0px;
+    color: #383838;
+    cursor:pointer;
+    float: left;
+    font-family: Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    height: 29px;
+    padding: 0;
+    width: 64px;
+}
+
+
+/* top bar */
+nav {
+    background: linear-gradient(#007300, #80C880);
+    overflow: hidden;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    float: left;
+}
+nav ul li a {
+    color: #FFFFFF;
+    display: block;
+    font-size: 11px;
+    font-weight: bold;
+    height: 20px;
+    line-height: 20px;
+    padding: 4px 10px 4px 11px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+} 
+
+
+/*on hover de botones de la top bar*/
+nav ul li a:hover, nav ul li.selected a {
+    background: linear-gradient(#80C880, #007300);
+}
+
+
+#submenu {
+
+    background: linear-gradient(#ffffff, #CECECE); 
+    border: 1px solid #E0E0E0;
+    height: 34px;
+
+    /*ESTO SE VE UN POCO RARO, DEL LADO DERECHO*/
+        /*ESTO SE VE UN POCO RARO, DEL LADO DERECHO*/
+            /*ESTO SE VE UN POCO RARO, DEL LADO DERECHO*/
+                /*ESTO SE VE UN POCO RARO, DEL LADO DERECHO*/
+                    /*ESTO SE VE UN POCO RARO, DEL LADO DERECHO*/
+                        /*ESTO SE VE UN POCO RARO, DEL LADO DERECHO*/
+                            /*ESTO SE VE UN POCO RARO, DEL LADO DERECHO*/
+                                /*ESTO SE VE UN POCO RARO, DEL LADO DERECHO*/
+    width: 100%;
+    margin: 0px 0px;
+}
+#submenu ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* barra de categorias */
+#submenu li {
+    float: left;
+    line-height: 1em;
+    list-style: none outside none;
+    position: relative;
+}
+
+/*hover de los botones*/
+#submenu li:hover {
+    background: linear-gradient(#CECECE, #FFFFFF); 
+}
+
+/* icono de los botones */
+#submenu li a {
+    background: url("../images/submenu1.png") no-repeat scroll 0 9px;
+    border-right: 1px solid #E0E0E0;
+    display: block;
+    font-weight: bold;
+    line-height: 14px;
+    margin: 0 0 0 19px;
+    padding: 9px 18px 11px 24px;
+    text-transform: uppercase;
+}
+#submenu li a:hover {
+    background-image: url("../images/submenu2.png");
+}
+
+/* main */
+#main {
+    background-color: #FAFAFA;
+    padding:20px 0;
+}
+
+#content {
+    overflow: hidden;
+}
+/*  comun para todo el cuerpo */
+#content #left, #content #right {
+    border: 2px solid #E9E9E9;
+    float: left;
+    margin: 0 2%;
+    width: 63%;
+}
+#content #right {
+    margin-left: 0;
+    width: 30%;
+}
+#content h3 {
+
+    background: linear-gradient(#ffffff, #F6F6F6);
+
+    border-bottom: 1px solid #E0E0E0;
+
+    color: #3C3C3C;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 15px;
+    padding: 11px 0 12px 20px;
+    text-transform: uppercase;
+}
+
+#content ul {
+    list-style:none outside none;
+    margin:0;
+    padding:0;
+}
+/* contenido del recuadro principal */
+#content #left ul li {
+    float:left;
+    padding-bottom: 21px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 33%;
+} 
+ /*   PREGUNTAR COMO HACER PARA CAMBIAR DESDE AQUI EL HOVER DEL NOMBRE DEL PRODUCTO!!!!!!*/
+  /*   PREGUNTAR COMO HACER PARA CAMBIAR DESDE AQUI EL HOVER DEL NOMBRE DEL PRODUCTO!!!!!!*/
+   /*   PREGUNTAR COMO HACER PARA CAMBIAR DESDE AQUI EL HOVER DEL NOMBRE DEL PRODUCTO!!!!!!*/
+
+/*hover de las cajas de los productos */     /*   PREGUNTAR COMO HACER PARA CAMBIAR DESDE AQUI EL HOVER DEL NOMBRE DEL PRODUCTO!!!!!!*/
+#content #left ul li:hover {                 /*   PREGUNTAR COMO HACER PARA CAMBIAR DESDE AQUI EL HOVER DEL NOMBRE DEL PRODUCTO!!!!!!*/ 
+    background-color: #CECECE;               /*   PREGUNTAR COMO HACER PARA CAMBIAR DESDE AQUI EL HOVER DEL NOMBRE DEL PRODUCTO!!!!!!*/
+}
+ /*   PREGUNTAR COMO HACER PARA CAMBIAR DESDE AQUI EL HOVER DEL NOMBRE DEL PRODUCTO!!!!!!*/
+  /*   PREGUNTAR COMO HACER PARA CAMBIAR DESDE AQUI EL HOVER DEL NOMBRE DEL PRODUCTO!!!!!!*/
+   /*   PREGUNTAR COMO HACER PARA CAMBIAR DESDE AQUI EL HOVER DEL NOMBRE DEL PRODUCTO!!!!!!*/
+    /*   PREGUNTAR COMO HACER PARA CAMBIAR DESDE AQUI EL HOVER DEL NOMBRE DEL PRODUCTO!!!!!!*/
+     /*   PREGUNTAR COMO HACER PARA CAMBIAR DESDE AQUI EL HOVER DEL NOMBRE DEL PRODUCTO!!!!!!*/
+
+/* contenido de barra lateral */
+#content #right ul li {
+    border-top: 1px solid #CECECE;
+    overflow: hidden;
+}
+#content #right ul li:hover {
+    background-color: #CECECE;
+}
+#content #right ul li:first-child {
+    border-width: none;
+}
+
+/* imagenes de productos*/
+#content #left ul li .img {
+    margin-top: 13px;
+    text-align: center;
+}
+#content #right ul li .img {
+    background-color: #FFFFFF;
+    float: left;
+    height: 94px;
+    text-align: center;
+}
+#content #left ul li .img img {
+    height:128px;
+    width:128px;
+}
+#content #right ul li .img img {
+    height:70px;
+    margin-top: 5px;
+    width:70px;
+}
+/* formato productos en el grid */
+#content #left ul li .info {
+    padding: 17px 20px 0 19px;
+}
+#content #right ul li .info {
+    float: left;
+    overflow: hidden;
+    padding: 10px 0px 0px 21px;
+    width: 164px;
+}
+
+/* nombre de producto */
+#content ul li .info .title {
+    color: #4B4B4B;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 150px;
+} 
+
+/* hover del nombre del producto */
+#content ul li .info .title:hover {
+    color: #049733;
+}
+
+#content #left ul li .info p {
+    color: #7F7F7F;
+    font-size: 11px;
+    line-height: 16px;
+    padding-top: 3px;
+
+} /*Caja con el precio, main grid*/
+#content #left ul li .info .price {
+    background: none repeat scroll 0 0 #F7F7F7;
+    color: #7F7F7F;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 16px;    
+    margin-right: 3px;
+    margin-bottom: 15px;
+    padding: 6px 0 6px 8px;
+}
+
+#content #left ul li .info .actions {
+    overflow:hidden;
+}
+
+#content #left ul li .info .actions a:first-child {
+    color: #009832;
+    background-color: #fbfbfb;
+    float:left;
+}
+
+#content #left ul li .info .actions a {
+    border: 1px solid #E0E0E0;
+    background-color: #fbfbfb;
+    color: #fd7a01;
+    display: block;
+    float:right;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 16px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+} /*Caja con el precio, sidebar*/
+#content #right ul li .info .price {
+    color: #383838;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 16px;
+    padding-top: 25px;
+}
+
+
+
+
+
+
+/* footer  */
+footer {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-top: 1px solid #E0E0E0;
+    margin: 0 0 5px;
+    padding: 15px 0 15px 20px;
+    color: #9B9B9B;
+    font-size: 12px;
+    line-height: 20px;
+    width: 100%;
+}
+
+}
